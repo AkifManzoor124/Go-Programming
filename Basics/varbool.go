@@ -13,7 +13,6 @@ func main(){
 	var j,k,l = 1, 2, true
 	//freedom to initialize j,k,l as what you want
 	m := 2
-	//We can use := to define 
-
+	//We can use := to initialize m instead of using the var keyword
 	fmt.Println(i, foo, bar)	
 }
