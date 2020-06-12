@@ -12,5 +12,8 @@ func main(){
 	var i int
 	var j,k,l = 1, 2, true
 	//freedom to initialize j,k,l as what you want
-	fmt.Println(i, foo, bar)
+	m := 2
+	//We can use := to define 
+
+	fmt.Println(i, foo, bar)	
 }
