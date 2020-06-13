@@ -15,4 +15,8 @@ func main(){
 		j = j + 1 
 		fmt.Println(j)
 	}
+
+	//the following is an inifite loop definition
+	for{
+	}
 }
