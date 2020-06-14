@@ -14,7 +14,20 @@ func runtime(location string) {
 	}
 }
 
+//We can write a switch with no condition to write clean long chains of if-then-else statements
+func adviceOnShoes(shoeType string) {
+	switch {
+	case shoeType == "Slippers":
+		fmt.Println("Goodluck")
+	case shoeType == "Running Shoes":
+		fmt.Println("Good Choice")
+	default:
+		fmt.Println("Oooooo Boy")
+	}
+}
+
 func main() {
 	fmt.Println("Running Switch Example")
 	runtime("Toronto")
+	adviceOnShoes("None")
 }
