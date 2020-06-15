@@ -14,6 +14,11 @@ type Hero struct{
 	villan string
 }
 
+type Band struct{
+	name string
+	genre string
+}
+
 var Heros = map[string]Hero{
 	"Batman":Hero{
 		"Bruce Wayne","Batman","Joker",
@@ -21,6 +26,12 @@ var Heros = map[string]Hero{
 	"Superman":Hero{
 		"Clark Kent","Superman","Lex Luthor",
 	},
+}
+
+//you can omit the need to put Band when defining a key-value pair in the map
+var bands = map[string]Band{
+	"Metallica": {"Metallica", "Metal"},
+	"Skillet": {"Skillet","Rock & Roll"}
 }
 
 //a map maps keys to a value
